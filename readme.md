@@ -1,0 +1,1 @@
+this is the initial readme for the prime number finder program.
