@@ -33,7 +33,7 @@ int main()
 	for (long i = start; i < countTo; i++) {
 		//innerClock = std::clock();
 		if (isPrime(i)) {
-			std::cout << i << "\t";
+			std::cout << i << "\t";//printing has minimal impact on the time it takes (multithreading will help more)
 			totalPrimes++;
 		}
 		//std::cout << "\nTime: " << (std::clock() - innerClock) / (double)(CLOCKS_PER_SEC / 1000) << " ms" << std::endl;
